@@ -1,2 +1,21 @@
 EDA : https://www.kaggle.com/kongnyooong/house-price-tutorial-for-korean-beginners \
 다중공선성 : https://eda-ai-lab.tistory.com/8
+
+- 220203 제출 X
+
+- 220210 제출 **0.14400** \
+전체 변수에 대하여 이상치 (IQR * 1.5) \
+명목형 데이터 > None 처리 \
+수치형 데이터 > 0 또는 평균값으로 대체 \
+OneHotEncoding \
+비슷한 변수끼리 사칙연산 수행하여 새로운 변수 생성 \
+수영장, 차고, 지하실, 화로 있다/없다로 변경 \
+XGBoost (random_state = 2000)
+
+- 220211 제출 **0.15411** \
+수치형/명목형 변수 각각 연관성 높은 순으로 10가지 추출 \
+BsmtQual 결측치 None 처리 \
+OneHotEncoding \
+차고, 지하실 있다/없다로 변경 \
+GrLivArea 이상치 2개 제거 \ 
+XGBoost (random_state = 2000)
