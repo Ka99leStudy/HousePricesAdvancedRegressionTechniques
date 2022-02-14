@@ -19,3 +19,10 @@ OneHotEncoding \
 차고, 지하실 있다/없다로 변경 \
 GrLivArea 이상치 2개 제거 \ 
 XGBoost (random_state = 2000)
+
+- 220214 제출 **0.13207** \
+결측 데이터 처리 (0210과 동일) \
+사칙연산, 있다/없다 \
+위에 사용된 변수 제거 \
+OneHotEncoding \
+XGBoost (random_state = 2000)
