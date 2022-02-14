@@ -50,3 +50,6 @@ ID 제거 \
 One-Hot Encoding \
 PCA (313 > 50 > 20) \
 XGBoost (random_state = 2000)
+
+- 220214(8) 제출 **0.12741** \
+XGBoost (n_estimators = 3000, learning_rate = 0.05, max_depth = 4) + 220214(3)과 동일
