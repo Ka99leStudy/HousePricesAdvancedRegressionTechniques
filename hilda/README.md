@@ -49,3 +49,4 @@ GrLivArea 이상치 2개 제거 \
 ID 제거 \
 One-Hot Encoding \
 PCA (313 > 50 > 20) \
+XGBoost (random_state = 2000)
